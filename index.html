@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<script src="//qwqawa.rth1.me/Fly-Engine@latest/fly-engine.js" type="module"></script>
+    <head>
+        <script src="./js/mdui.min.js"></script>
+        <link rel="stylesheet" href="./css/mdui.min.css">
+        <meta name="renderer" content="webkit"/>
+        <meta name="force-rendering" content="webkit"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="./js/index.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8010562940581406" crossorigin="anonymous"></script>
+        <title>tuanziaaa的自留地</title>
+		<link rel="icon" href="/images/ico.ico">
+    </head>
+    <body>
+        <div class="bar" id="bar">
+            <div>
+                网站全新改版啦~
+            </div>
+            <span onclick="hide('bar')">
+                ×
+            </span>
+        </div>
+        <div class="container">
+            <div class="aboutme-card" id="aboutme-card">
+                <div class="icon">
+                    <img src="images/logo.png" mdui-tooltip="{content: '你瞅啥'}">
+                </div>
+                <div class="aboutme">
+                    <div id="aboutme">
+                        <div>
+                            <div class="name">
+                                团子awa
+                                <a class="info">
+                                    很懒但是每天都很快乐
+                                </a>
+                            </div>
+                        <div class="mdui-divider"></div>
+                        <div class="into">
+                            <span>爱摸鱼(bushi)</span><span>/</span>
+                            <span>爱干饭</span><span>/</span>
+                            <span>爱"诈尸"</span>
+                        </div>
+                        <div class="btnhub">
+                            <button class="mdui-btn mdui-ripple" onclick="openweb('https://nllq.xyz')">
+                                <i class="mdui-icon material-icons" style="color:#42A5F5;">cloud</i>
+                                <a>网盘</a>
+                            </button>
+                            <button class="mdui-btn mdui-ripple" onclick="hideandshow('aboutme-card','project-card')">
+                                <i class="mdui-icon material-icons" style="color: #FFCA28;">apps</i>
+                                <a>项目</a>
+                            </button>
+                            <button class="mdui-btn mdui-ripple"  onclick="openweb('https://www.nllq.xyz/about')">
+                                <i class="mdui-icon material-icons" style="color: #52c41a;">info</i>
+                                <a>关于</a>
+                            </button>
+                            <button class="mdui-btn mdui-ripple" onclick="openweb('https://www.nllq.xyz/home')" mdui-tooltip="{content: '恰饭(被迫)'}">
+                                <i class="mdui-icon material-icons">insert_link</i>
+                                <a>服务器</a>
+                            </button>
+                            <button class="mdui-btn mdui-ripple" mdui-menu="{target: '#more'}">
+                                <i class="mdui-icon material-icons" style="color: dimgray;">menu</i>
+                            </button>
+                            <ul class="mdui-menu mdui-menu-cascade" id="project">
+                                <li class="mdui-menu-item">
+                                  <a href="https://nllq.xyz/" target="_blank" class="mdui-ripple">???</a>
+                                </li>
+                                  <a >更多待开发中...</a>
+                                </li>
+                              </ul>
+                              <ul class="mdui-menu" id="more">
+                                </li>
+                                <li class="mdui-menu-item">
+                                    <a href="https://www.nllq.xyz/friends" target="_blank" class="mdui-ripple">
+                                        <i class="mdui-icon material-icons" style="color:#FFD740;">people</i>
+                                        小伙伴们
+                                    </a>
+                                </li>
+                                <li class="mdui-menu-item">
+                                    <a mdui-tooltip="{content: 'admin@nllq.xyz'}" class="mdui-ripple">
+                                        <i class="mdui-icon material-icons" style="color:#FFA726">email</i>
+                                        Email
+                                    </a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-card" id="project-card">
+            <span class="project-off" onclick="hideandshow('project-card','aboutme-card')">×</span>
+            <div class="project-title">我的项目</div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">网盘</div>
+                <a>小网盘</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://nllq.xyz/')">查看详情</footer>
+            </div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">测重</div>
+                <a>请使用iPhone7-8</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://qwqawa.rth1.me/3D.html')">查看详情</footer>
+            </div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">谷歌</div>
+                <a>谷歌</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://g.nllq.xyz/')">查看详情</footer>
+            </div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">[分享]极域破解</div>
+                <a>for 网盘</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://nllq.xyz/s/PgiG')">查看详情</footer>
+            </div>
+            <div class="project-tips mdui-shadow-10">
+                正在努力肝项目中，莫急，急我就不更了xD
+            </div>
+        </div>
+    </body>
+</html>

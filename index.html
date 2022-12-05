@@ -51,8 +51,8 @@
                                 <i class="mdui-icon material-icons" style="color: #FFCA28;">apps</i>
                                 <a>音乐</a>
                             </button>
-                            <button class="mdui-btn mdui-ripple"  onclick="openweb('https://www.nllq.xyz/about')">
-                                <i class="mdui-icon material-icons" style="color: #52c41a;">info</i>
+                            <button class="mdui-btn mdui-ripple"  onclick="hideandshow('aboutme-card','project-card')">
+                                <i class="mdui-icon material-icons" style="color: #52c41a;">people</i>
                                 <a>关于</a>
                             </button>
                             <button class="mdui-btn mdui-ripple" onclick="openweb('https://space.bilibili.com/505475862')" mdui-tooltip="{content: '确定不关注一下？'}">
@@ -72,12 +72,6 @@
                               <ul class="mdui-menu" id="more">
                                 </li>
                                 <li class="mdui-menu-item">
-                                    <a href="https://tuanzi.gq/friends" target="_blank" class="mdui-ripple">
-                                        <i class="mdui-icon material-icons" style="color:#FFD740;">people</i>
-                                        小伙伴们
-                                    </a>
-                                </li>
-                                <li class="mdui-menu-item">
                                     <a href="mailto:tuanziaaa@qq.com" a mdui-tooltip="{content: 'tuanziaaa@qq.com'}" class="mdui-ripple">
                                         <i class="mdui-icon material-icons" style="color:#FFA726">email</i>
                                         Email
@@ -86,6 +80,40 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+	        <div class="project-card" id="project-card">
+            <span class="project-off" onclick="hideandshow('project-card','aboutme-card')">×</span>
+            <div class="project-title">友情链接</div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">123231
+</div>
+                <a>123232x</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('123233')">查看详情</footer>
+            </div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">二级域名</div>
+                <a>blog</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://blog.nllq.xyz/')">查看详情</footer>
+            </div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">seewo桌面
+</div>
+                <a>seewo桌面
+</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://pan.huang1111.cn/s/vKWgIE?password=11145182')">查看详情</footer>
+            </div>
+            <div class="projectcard mdui-shadow-5 mdui-hoverable">
+                <div class="project-card-title">阿巴</div>
+                <a>阿巴阿巴阿巴</a>
+                <div class="mdui-divider"></div>
+                <footer class="mdui-ripple" onclick="openweb('https://status.nllq.tk/')">查看详情</footer>
+            </div>
+            <div class="project-tips mdui-shadow-10">
+                正在努力肝项目中，莫急，急我就不更了xD
             </div>
         </div>
     </body>
